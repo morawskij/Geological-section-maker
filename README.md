@@ -134,7 +134,7 @@ Let us denominate the control points of a curve $l_n$ as $p_{n,1},p_{n,2},..,p_{
 
 <img src="./App_screenshots/Second_window_change_point.png" alt="Drawing window" width=1000px>
 
-The navigation between the control points is done by changing the active point by one to the right or to the left (in the notation from above, it would mean activating the point $p_{n,m'}=p_{n,m\pm1}$, where $n$ is the number of the active layer, and $m$ is the index of the previousl active point (assuming the operation is possible, that is $m'\in\{1,2,...,m_n\}$. This can be schieved with the two buttons highlighted on the screenshot above, but it is far more efficient to use the hotkeys, **A** to move one point to the left, and **D** to move one point to the right.
+The navigation between the control points is done by changing the active point by one to the right or to the left (in the notation from above, it would mean activating the point $p_{n,m'}=p_{n,m\pm1}$, where $n$ is the number of the active layer, and $m$ is the index of the previousl active point (assuming the operation is possible, that is $m'\in\{1,2,...,m_n\}$. This can be achieved with the two buttons highlighted on the screenshot above, but it is far more efficient to use the hotkeys, **A** to move one point to the left, and **D** to move one point to the right.
 
 #### Removing a point (X)
 
