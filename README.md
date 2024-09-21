@@ -1,3 +1,5 @@
+### This is a copy-paste of the user guide available in the upper part of the Jupyter Notebook Geological_sections_app.ipynb, which is the file with the source code
+
 # Geological-section-maker
 
 ### (To start using the app, scroll down past the tutorial and run the cell below)
@@ -97,9 +99,9 @@ From here, you can start adding layers into your section with the **Add layer** 
 
 <img src="./App_screenshots/Second_window_add_layer.png" alt="Drawing window" width=1000px>
 
-The concept of the workflow is to create a stack of layers defined by their delineating upper lines (curves), which are adjusted by means of tweaking their control points. Each layer will have it's own name, color, and optional hatch (e. g. dashed or dotted filling, valid options are |,/\,O,X,o,x,*,+,-,. or any collection of these characters). For any $n>0$, the area shown in the color and hatch of the $n^{th}$ layer on the plot will be the set of points $(x,y)$ such that $l_{n-1}(x)<y<l_n(x)$, where $l_i$ is the upper delineating curve of the $i^{th}$ layer, with $l_0$ referring to the bottom of the plot. Notice that the delineating curve of a layer can go below the base of the plot or the curve delineating the previous layer - in the intervals of the $x$ range where this will be the case, this layer simply won't be shown.     
+The concept of the workflow is to create a stack of layers defined by their delineating upper lines (curves), which are adjusted by means of tweaking their control points. Each layer will have it's own name, color, and optional hatch (e. g. dashed or dotted filling, valid options are |,/\,O,X,o,x,*,+,-,. or any collection of these characters). For any $n>0$, the area shown in the color and hatch of the layer $n$ on the plot will be the set of points $(x,y)$ such that $l_{n-1}(x)<y<l_n(x)$, where $l_i$ is the upper delineating curve of the $i^{th}$ layer, with $l_0$ referring to the bottom of the plot. Notice that the delineating curve of a layer can go below the base of the plot or the curve delineating the previous layer - in the intervals of the $x$ range where this will be the case, this layer simply won't be shown.     
 
-Any new $n^{th} $layer is added with a single control point, which defines the height of the delineating curve (defaults to halfway between the uppermost point of $l_{n-1}$ and the highest point of the topography along the section). Keeping all layers like this will correspond to an interpretation of horizontal strata. Moving the initial control point to the right corresponds to absecnce of a given fascies left of that point in the section. If finer shapes are desired, more control points can be added.
+Any new $n^{th}$ layer is added with a single control point, which defines the height of the delineating curve (defaults to halfway between the uppermost point of $l_{n-1}$ and the highest point of the topography along the section). Keeping all layers like this will correspond to an interpretation of horizontal strata. Moving the initial control point to the right corresponds to absecnce of a given fascies left of that point in the section. If finer shapes are desired, more control points can be added.
 
 #### About hotkeys
 
@@ -132,7 +134,7 @@ Let us denominate the control points of a curve $l_n$ as $p_{n,1},p_{n,2},..,p_{
 
 <img src="./App_screenshots/Second_window_change_point.png" alt="Drawing window" width=1000px>
 
-The navigation between the control points is done by changing the active point by one to the right or to the left (in the notation from above, it would mean activating the point $p_{n,m'}=p_{n,m\pm1}$, where $n$ is the number of the active layer, and $m$ is the index of the previousl active point (assuming the operation is possible, that is $m'\in\left\{1,2,...,m_n\right\}$. This can be schieved with the two buttons highlighted on the screenshot above, but it is far more efficient to use the hotkeys, **A** to move one point to the left, and **D** to move one point to the right.
+The navigation between the control points is done by changing the active point by one to the right or to the left (in the notation from above, it would mean activating the point $p_{n,m'}=p_{n,m\pm1}$, where $n$ is the number of the active layer, and $m$ is the index of the previousl active point (assuming the operation is possible, that is $m'\in\{1,2,...,m_n\}$. This can be schieved with the two buttons highlighted on the screenshot above, but it is far more efficient to use the hotkeys, **A** to move one point to the left, and **D** to move one point to the right.
 
 #### Removing a point (X)
 
