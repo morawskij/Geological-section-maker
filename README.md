@@ -142,7 +142,7 @@ By pressing the **-** button or by using the hotkey **X**, you can remove the cu
 
 #### Interpolation (Q)
 
-<img src="./App_screenshots/Second_window_interpolaion.png" alt="Drawing window" width=1000px>
+<img src="./App_screenshots/Second_window_interpolation.png" alt="Drawing window" width=1000px>
 
 For $m_n\geqslant3$, it is possible to apply quadratic interpolation between the control points to achieve a smoother looking curve. To switch between linear and quadratic interpolation, use the radio buttons indicated on the screenshot above, or the hotkey **Q**. If control points are subsequently removed so that only $2$ remain, the application will automatically revert to linear interpolation for this layer.
 
