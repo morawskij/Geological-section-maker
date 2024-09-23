@@ -84,7 +84,7 @@ Once at least one file is uploaded, you will be able to proceed to the second wi
 
 <img src="./App_screenshots/Welcome_screen_load.png" alt="Welcome screen" width=700px>
 
-The **Load saved progress** button can be used to resume working on a section by calling a text file in which all the necessary information was saved when previously working with ***Geological section maker***. When loading saved progress, do not change any of the other settings, but rather press this button directly - all the relevant information about your plot will be read directly from the file.  
+The **Load saved progress** button can be used to resume working on a section by calling a text file in which all the necessary information was saved when previously working with ***Geological section maker***. When loading saved progress, do not change any of the other settings, but rather press this button directly - all the relevant information about your plot will be read directly from the file. Be sure to give the application some time, it may take up to a minute to generate the drawing window when loading saved progress.  
 
 ## Drawing window
 
