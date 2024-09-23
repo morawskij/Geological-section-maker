@@ -2,7 +2,7 @@
 
 # Geological-section-maker
 
-### (To start using the app, scroll down past the tutorial and run the cell below)
+### (To start using the app, open the Jupyter Notebook and run the cell with the code)
 
 #### If the images in this user guide do not display correctly, check if you have downloaded the *App_screenshots* folder and placed it in the same directory as this Notebook
 
